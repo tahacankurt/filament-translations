@@ -11,7 +11,6 @@ class Key extends Component
         return Forms\Components\TextInput::make('key')
             ->label(trans('filament-translations::translation.key'))
             ->disabled(fn (Forms\Get $get) => $get('id') !== null)
-            ->required()
-            ->maxLength(255);
+            ->required();
     }
 }
