@@ -12,8 +12,6 @@ class Translation extends LanguageLine
     use HasFactory;
     use SoftDeletes;
 
-    public $translatable = ['text'];
-
     /** @var array */
     public $guarded = ['id'];
 
@@ -45,7 +43,7 @@ class Translation extends LanguageLine
         return $this->text[$locale] ?? '';
     }
 
-    public function setTranslation(string $locale, string $value): self
+    public function setTranslation(string $locale, string $value): static
     {
         $this->text = array_merge($this->text ?? [], [$locale => $value]);
 
