@@ -11,6 +11,7 @@ final class EditPageActions
         return [
             Components\ViewAction::make(),
             Components\DeleteAction::make(),
+            Components\AiTranslateAction::make(),
         ];
     }
 }

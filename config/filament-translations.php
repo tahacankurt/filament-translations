@@ -27,6 +27,13 @@ return [
     'excludedPaths' => [],
 
     /*
+     * |--------------------------------------------------------------------------
+     * | Default Locale
+     * |--------------------------------------------------------------------------
+     */
+    'default_locale' => 'en',
+
+    /*
     |--------------------------------------------------------------------------
     | Locals
     |--------------------------------------------------------------------------
@@ -58,6 +65,14 @@ return [
         'id' => [
             'label' => 'Indonesia',
             'flag' => 'id',
+        ],
+        'tr' => [
+            'label' => 'Turkish',
+            'flag' => 'tr',
+        ],
+        'jp' => [
+            'label' => 'Japanese',
+            'flag' => 'jp',
         ],
     ],
 
@@ -135,5 +150,18 @@ return [
      | Custom Excel import.
      |
      */
+
+
+
     'path_to_custom_excel_import' => null,
+
+    /*
+     * |--------------------------------------------------------------------------
+     * | AI Translation Settings
+     * |--------------------------------------------------------------------------
+     */
+    'ai_api_key'=> env('AI_API_KEY'),
+    'ai_api_provider'=> env('AI_API_PROVIDER','openai'),
+    'ai_default_model'=> env('AI_DEFAULT_MODEL','gpt-3.5-turbo'),
+    'ai_default_prompt_for_translations'=> env('AI_DEFAULT_PROMPT_FOR_TRANSLATIONS','You are a professional translator. You will be provided with text in a source language, and your task is to translate it accurately into one or more target languages while preserving the original meaning and context. Your translations should be clear, natural, and culturally appropriate for native speakers of the target languages. Avoid literal translations that may not convey the intended message effectively. If you encounter any text that is ambiguous or lacks sufficient context, please indicate this in your response rather than making assumptions.'),
 ];

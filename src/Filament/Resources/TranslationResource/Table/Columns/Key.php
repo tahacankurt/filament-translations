@@ -11,6 +11,9 @@ class Key extends Column
         return Tables\Columns\TextColumn::make('key')
             ->label(trans('filament-translations::translation.key'))
             ->searchable()
+            ->extraAttributes(['class' => 'text-xs '])
+            // Set max length to  50characters
+            ->limit(50)
             ->sortable();
     }
 }

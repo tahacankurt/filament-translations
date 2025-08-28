@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9cead977-737e-49dd-851a-761fb1bb0aff" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module.json" beforeDir="false" afterPath="$PROJECT_DIR$/module.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/filament-translations.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/filament-translations.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/lang/en/translation.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/lang/en/translation.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/text-column.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/text-column.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Actions/EditPageActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Actions/EditPageActions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Table/Columns/Key.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Table/Columns/Key.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Table/TranslationBulkActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/Filament/Resources/TranslationResource/Table/TranslationBulkActions.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,7 +25,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$USER_HOME$/Library/Application Support/Herd/bin/php">
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/dragonmantank/cron-expression" />
       <path value="$PROJECT_DIR$/vendor/tijsverkoyen/css-to-inline-styles" />
@@ -218,11 +222,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "dart.analysis.tool.window.visible": "false",
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
-    "last_opened_file_path": "/Users/fadymondy/packages/filament-translations/tests/database",
+    "last_opened_file_path": "/Users/cankurt.taha/Documents/Projects/tahacankurt/filament-translations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -237,7 +243,7 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Pest.Main">
     <configuration name="Main" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
       <TestRunner configuration_file="$PROJECT_DIR$/phpunit.xml" scope="XML" use_alternative_configuration_file="true" />
       <method v="2" />
@@ -252,8 +258,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PS-242.23726.107" />
-        <option value="bundled-php-predefined-a98d8de5180a-90914f2295cb-com.jetbrains.php.sharedIndexes-PS-242.23726.107" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-PS-251.26927.60" />
+        <option value="bundled-php-predefined-a98d8de5180a-e5747d4f5a45-com.jetbrains.php.sharedIndexes-PS-251.26927.60" />
       </set>
     </attachedChunks>
   </component>
@@ -267,6 +273,7 @@
       <updated>1720327673578</updated>
       <workItem from="1720327675523" duration="25234000" />
       <workItem from="1731091659644" duration="752000" />
+      <workItem from="1756387103469" duration="11000" />
     </task>
     <servers />
   </component>

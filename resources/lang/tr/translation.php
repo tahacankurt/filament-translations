@@ -1,0 +1,52 @@
+<?php
+
+return [
+    'title' => [
+        'home' => 'Çeviriler',
+        'list' => 'Çeviriler',
+        'create' => 'Çeviri Oluştur',
+        'edit' => 'Çeviriyi Düzenle',
+    ],
+    'label' => 'Çeviriler',
+    'single' => 'Çeviri',
+    'group' => 'Ayarlar',
+    'gpt_scan_language' => 'Dil',
+    'gpt_scan' => 'GPT Kullan',
+    'gpt_scan_notification_start' => 'GPT taraması başlatıldı',
+    'gpt_scan_notifications_done' => 'GPT taraması tamamlandı',
+    'google_scan' => 'Google Translate Kullan',
+    'google_scan_notifications_start' => 'Google Translate taraması başlatıldı',
+    'google_scan_notifications_done' => 'Google Translate taraması tamamlandı',
+    'clear_notifications' => 'Çeviriler temizlendi',
+    'clear' => 'Tüm Çevirileri Temizle',
+    'key' => 'Anahtar',
+    'text' => 'Metin',
+    'scan' => 'Yeni Dilleri Tara',
+    'namespace' => 'Namespace',
+    'notification' => 'Dil başarıyla değiştirildi',
+    'loaded' => 'Çeviri listesi güncellendi',
+    'uploaded' => 'Çeviriler başarıyla yüklendi',
+    'import' => 'İçe Aktar',
+    'export' => 'Dışa Aktar',
+    'import-file' => 'Çeviri yaptıktan sonra dışa aktarılan dosyayı seçin',
+    'menu' => 'Dili Değiştir',
+    'modal' => [
+        'heading' => 'Geçerli dili güncelle',
+        'button' => 'Kaydet, dil',
+        'setting' => 'Ayarlar',
+        'select' => 'Dil',
+    ],
+    'lang' => [
+        'ar' => 'Arapça',
+        'en' => 'İngilizce',
+        'pt_BR' => 'Portekizce (Brezilya)',
+        'my' => 'Burmaca',
+        'de' => 'Almanca',
+    ],
+    'translate_with_ai' => 'Yapay Zeka ile Çevir',
+    'source_locale' => 'Kaynak Dil',
+    'target_locale' => 'Hedef Dil',
+    'target_all_locales' => 'Tüm Dilleri Hedefle',
+    'translate_with_ai_description' => 'Seçilen kaynak dilden hedef dile veya tüm dillere çeviriyi başlatır. Bu işlem, mevcut çevirileri geçersiz kılar ve Ai API anahtarınızın doğru yapılandırıldığını varsayar.'
+
+];

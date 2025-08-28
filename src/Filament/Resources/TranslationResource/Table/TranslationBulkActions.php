@@ -20,6 +20,7 @@ class TranslationBulkActions
     {
         return [
             BulkActions\DeleteAction::make(),
+            BulkActions\AiTranslateAction::make(),
         ];
     }
 

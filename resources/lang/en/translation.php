@@ -43,4 +43,10 @@ return [
         'my' => 'Burmese',
         'de' => 'German',
     ],
+    'translate_with_ai' => 'Translate with AI',
+    'source_locale' => 'Source Locale',
+    'target_locale' => 'Target Locale',
+    'target_all_locales' => 'Target All Locales',
+    'translate_with_ai_description' => 'This action will use AI to translate the selected texts. Please note that this may incur additional costs depending on your AI service provider.',
+    
 ];
